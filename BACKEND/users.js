@@ -211,6 +211,16 @@ app.get('/suggestedActivities', async (req, res) => {
   }
 });
 
+app.get('/userprofile/${userId}', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT fullname,picture,role FROM users ');
+    res.json(result.rows);
+  } catch (error) {
+    console.error('Error fetching suggested activities:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
 
 
 app.listen(PORT, () => {
