@@ -1,0 +1,447 @@
+/* Style for the entire app */
+.app {
+  text-align: center;
+  background-color: #002333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image1 {
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  margin-bottom: 10px;
+}
+
+
+
+/* Navigation styles */
+
+
+/* About section styles */
+.aboutSection {
+  margin-top: 0.5vh;
+  margin-bottom:0vh;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 80px;
+  height: 75vh;
+  
+}
+
+.introductionHeading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 3vh;
+}
+
+.introductionContent {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+/* Our Works section styles */
+/* .ourWorksSection { */
+  /* background: #fff; */
+  /* height: 100vh;
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 50px;
+  width: 80%;
+} */
+
+/* .worksContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+}
+
+.work {
+  width: 100%;
+} */
+
+
+
+
+/* Our Founder Words section styles */
+.ourFounderWordsSection {
+  /* background-color: #fff; */
+  color: #ffffff;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.founderWordsHeading{
+  font-size: 1.5vw;
+}
+.founderWordsContent {
+  padding-top: 30px;
+  flex: 1;
+  display: flex;
+  padding-right: 50px;
+  text-align: left;
+}
+.founderWordsImageContainer2 {
+  margin-left: 0px;
+  display:inline;
+}
+.founderWordsImageContainer1 {
+  margin-left: 0px;
+  display:none;
+}
+.founderWordsParagraph {
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-align: left;
+  margin-right: 3vw;
+}
+
+.founderWordsImageContainer {
+  margin-left: 10px;
+}
+
+.founderWordsImage {
+  width: 40vw;
+  height: 70vh;
+  border-radius: 8px;
+}
+
+/* Our Vision section styles */
+.ourVisionSection {
+  /* background-color: #fff; */
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+/* 
+.visionImageContainer {
+  flex: 1;
+} */
+
+.visionImage {
+  Width: 100%;
+  width: 40vw;
+  height: 70vh;
+  max-height: 100%;
+  border-radius: 8px;
+  padding-left: 100px;
+}
+.visionheading{
+  font-size: 2vw;
+  position: relative;
+  bottom:1vw;
+}
+.visionContent {
+  /* flex: 1; */
+  padding-left: 50px;
+  padding-right: 25px; /* Adjusted paddingLeft for space between image and paragraph */
+}
+
+.visionParagraph {
+  font-size: 1.6rem;
+  color: whitesmoke;
+  text-align: left;
+}
+
+/* Our Mission section styles */
+
+
+/* Our Values section styles */
+.ourValuesSection {
+  /* background-color: #fff; */
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+}
+
+.valuesContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.value {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+/* .footer {
+  background-color: #053047;
+  color: white;
+  padding: 30px;
+  bottom: 0;
+  width: 98vw;
+} */
+
+
+@media(max-width:768px)
+{
+  .aboutSection {
+    margin-top: 0.5vh;
+    margin-bottom:0vh;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 80px;
+    height: 75vh;
+    
+  }
+  
+  .introductionHeading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 3vh;
+  }
+  
+  .introductionContent {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+
+
+
+  .ourFounderWordsSection {
+    /* background-color: #fff; */
+    color: #ffffff;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .founderWordsHeading{
+    font-size: 2vw;
+    margin: 1vw;
+  }
+  .founderWordsContent {
+    padding-top: 0px;
+    flex: 1;
+    display: flex;
+    font-size: 3vw;
+    padding-right: 0px;
+    text-align: left;
+  }
+  .founderWordsImageContainer1 {
+    margin-left: 0px;
+    display:inline;
+  }
+  .founderWordsImageContainer2 {
+    margin-left: 0px;
+    display:none;
+  }
+  .founderWordsParagraph {
+    font-size: 2.5vw;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .founderWordsImageContainer {
+    margin-left: 10px;
+  }
+  
+  .founderWordsImage {
+    width: 60vw;
+    height: 50vh;
+    border-radius: 8px;
+  }
+  .ourVisionSection {
+    /* background-color: #fff; */
+    /* padding: 50px 0; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  /* 
+  .visionImageContainer {
+    flex: 1;
+  } */
+  .visionheading{
+    font-size: 3vw;
+    position: relative;
+    margin: 1vw;
+  }
+  .visionImage {
+    Width: 60%;
+    height: 50vh;
+    max-height: 100%;
+    border-radius: 8px;
+    padding-left: 0px;
+  }
+  
+  .visionContent {
+    /* flex: 1; */
+    padding-left: 50px;
+    padding-right: 25px; /* Adjusted paddingLeft for space between image and paragraph */
+  }
+  
+  .visionParagraph {
+    font-size: 1rem;
+    color: whitesmoke;
+    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .valuesheading
+  {
+    position: relative;
+    bottom: 4vw;
+  }
+
+
+}
+
+
+@media (max-width:480px)
+{
+
+  .image1 {
+    width: 100vw; /* 100% of viewport width */
+    height: 50vh; /* 100% of viewport height */
+    margin-bottom: 10px;
+  }
+  .aboutSection {
+    margin-top: 0;
+    margin-bottom: 45px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 75vh;
+    
+  }
+  
+  .introductionHeading {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    left: 20vw;
+    width: 50vw;
+    color: #ffffff;
+  }
+  
+  .introductionContent {
+    font-size: 4vw;
+    width: 90vw;
+    color: #ffffff;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .founderWordsHeading{
+    width: 80vw;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    position: relative;
+    bottom: 3vw;
+    font-size: 3vw;
+  }
+  .ourFounderWordsSection {
+    /* background-color: #fff; */
+    color: #ffffff;
+    /* padding: 50px 100px; */
+    display: flex;
+    width: 100vw;
+    flex-direction:column;
+    align-items: center;
+    
+  }
+  
+  .founderWordsContent {
+    padding-top: 0px;
+    flex: 1;
+    display: flex;
+    padding-right: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .founderWordsParagraph {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+    position: relative;
+    left: 0vw;
+    width: 80vw;
+    text-align: justify;
+    text-justify: inter-word;
+    
+  }
+  .founderWordsImageContainer1 {
+    margin-left: 0px;
+    display:inline;
+    position: relative;
+    bottom: 5vw;
+  }
+  
+  .founderWordsImageContainer2 {
+    margin-left: 0px;
+    display:none;
+  }
+
+  .founderWordsImageContainer {
+    margin-left: 0px;
+  }
+  
+  .founderWordsImage {
+    Width: 80vw;
+    height: 33vh;
+    border-radius: 8px;
+  }
+
+
+
+  .ourVisionSection {
+    /* background-color: #fff; */
+    /* padding: 50px 0; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  /* 
+  .visionImageContainer {
+    flex: 1;
+  } */
+  
+  .visionImage {
+    Width: 80vw;
+    height: 33vh;
+    max-height: 100%;
+    border-radius: 8px;
+    padding-left: 0px;
+  }
+  
+  .visionContent {
+    /* flex: 1; */
+    padding-left: 50px;
+    padding-right: 25px; /* Adjusted paddingLeft for space between image and paragraph */
+  }
+  .visionheading{
+    font-size: 5vw;
+  }
+  .visionParagraph {
+    font-size: 1rem;
+    color: whitesmoke;
+    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .valuesheading{
+    position: relative;
+    bottom: 6vw;
+  }
+}

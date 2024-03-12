@@ -1,0 +1,211 @@
+.SidePane{
+    width: 20vw;
+    height: 90vh;
+    background-color: #012332 ;
+}
+.mainpart{
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+}
+.UserDetails{
+    background-color: #022A40;
+    width: 20vw;
+    height: 12vh;
+    position: relative;
+    top: 0.5%;
+    left: 0%;
+}
+.imgPart{
+    width: 6vw;
+    height: 10vh;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    top: 9%;
+    left: 8%;
+}
+.UserDetails h2{
+    position: relative;
+    top: -75%;
+    left: 8%;
+    color: white;
+}
+.UserDetails p{
+    position: relative;
+    top: -95%;
+    left: 0%;
+    color: white;
+}
+.sidePaneDetails{
+    text-align: left;
+    padding-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    /* margin-bottom: 0px; */
+}
+.sidePaneDetails img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sidePaneDetails p{
+    cursor: pointer;
+}
+
+.userDetails1{
+    margin-top: 5%;
+}
+
+.userDetails2{
+    margin-top: 35%;
+}
+
+.RightSide{
+    background-color: white;
+    flex: 1 1;
+}
+.LS input{
+    width: 31.5vw;
+    height: 5vh;
+    position: relative;
+    top: 2vw;
+    left: -22.5vw;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding-left: 2%;
+}
+
+
+.Ls2{
+    /* background-color: blue; */
+    height: 10vh;
+    width: 33vw;
+    position: relative;
+    top: 4vh;
+    left: 3vw;
+    display: flex;
+}
+
+.Ls3{
+    /* background-color: red; */
+    height: 30vh;
+    width: 33vw;
+    position: relative;
+    top: 3vh;
+    left: 3vw;
+
+    /* display: flex; */
+}
+.ls3p{
+    text-align: left;
+    /* margin-left: 1%; */
+    background-color: #EEEEEE;
+    height: 28vh;
+    width: 33vw;
+    border-radius: 15px;
+
+}
+.ls3User{
+    display: flex;
+    padding-left: 4%;
+}
+.ls3User img{
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.ls3User p{
+    margin-left: 18%;
+}
+.userhead{
+    font-weight: 750;
+}
+.ls3button{
+    margin-left: 38%;
+    width: 20%;
+    height: 13%;
+    background-color: #D8D9D8;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+.Ls4{
+    /* background-color: green; */
+    height: 30vh;
+    width: 33vw;
+    position: relative;
+    top: 6vh;
+    left: 3vw;
+    /* display: flex; */
+}
+
+.RS{
+    width: 33vw;
+    height: 80vh;
+    /* background-color: #012332; */
+    position: relative;
+    left: 40vw;
+    top: -61.25vh;
+    /* display: flex; */
+}
+
+.RsBox{
+    height: 60.5vh;
+    width: 33vw;
+    background-color: #EEEEEE;
+    border-radius: 15px;
+    padding-top: 4%;
+}
+.rsUser{
+    display: flex;
+    padding-left: 4%;
+    margin-top: -2%;
+}
+.rsUser img{
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 2.5%;
+}
+.rsUser p{
+    margin-left: 25%;
+}
+.rssubhead{
+    position: relative;
+    top: -6%;
+    left: -28%;
+    font-size: 12px;
+}
+
+.rsbutton{
+    width: 33vw;
+    height: 5vh;
+    font-weight: 800;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.subHeading{
+    text-align: left;
+}
+
+.subHeading1{
+    text-align: left;
+    margin-top: -5%;
+}
+
+.buttonls{
+    background-color: #012332;
+    color: green;
+    width: 165%;
+    height: 50%;
+    border-radius: 50px;
+    position: relative;
+    top: 25%;
+    left: 140%;
+}

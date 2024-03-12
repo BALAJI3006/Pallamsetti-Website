@@ -1,0 +1,244 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  --primary-color: #111;
+  --hovered-color: #ffffff;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+  margin-right: 25px;
+}
+li p{
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+li ::after{
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+li p::before{
+  position: absolute;
+  content: "Subscribe";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+li:hover::after{
+  width: 100%;
+}
+li:hover p::before{
+  width:100%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  margin-top: 25px;
+  height: 50px;
+  left:30px;
+  width: 100px;
+  position: relative;
+}
+
+.loginButton {
+  font-size: 17px;
+  padding: 0.5em 2em;
+  margin-right: 2%;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  background: #002333;
+  color: white;
+  border-radius: 4px;
+ }
+ .loginButtonhover {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+ }
+ 
+ .loginButton:active {
+  transform: translate(0em, 0.2em);
+ }
+ 
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  background: #053047;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+
+.nav_item{
+  justify-content: space-between;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.3rem;
+  margin: 0.5rem;
+  right: 4vw;
+  position: relative;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .loginButton {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    left:50vw;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: #002333;
+    color: white;
+    border-radius: 4px;
+    
+   }
+  .nav__menu {
+    position: fixed;
+    top: 9vh;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #063049;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    z-index: 10;
+    opacity:85%;
+    justify-content: space-evenly;
+  }
+}
+
+.nav__active {
+  transform: translateX(0%);
+}
+
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5.5px, -5px);
+}
+
+.dropDown {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  /* flex-direction: column; */
+  width: 6%;
+  margin-left: -50%;
+  /* padding: 15%; */
+
+}
+.dropDown p{
+  margin-top: 80%;
+  color: white;
+  font-size: 20px;
+  margin-right: 110%;
+}
+.imageDp{
+  width: 40px;
+  color: white;
+  background-color: grey;
+  padding: 2px;
+  border-radius: 50%;
+}
+
+
+
+.userEmail {
+  position: relative;
+  right: 10%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 25px;
+  background-color: #053047;
+  padding: 5px 20px;
+  /* margin-right: 10%; */
+}
+
+.userEmail p {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.userEmail img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.dropdownContent {
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  /* display: none; */
+  top: 100%;
+  right: 40px;
+}
+
+.dropdownContent a,
+.dropdownContent div {
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+.dropdownContent a:hover,
+.dropdownContent div:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display:normal;
+}
+

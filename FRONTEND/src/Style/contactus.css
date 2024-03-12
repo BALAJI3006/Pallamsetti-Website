@@ -1,0 +1,186 @@
+.appContact {
+  text-align: center;
+  background-color: #002333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+.pane{
+  flex-direction: row;
+  display: flex;
+}
+.header {
+  background-color: #333;
+  color: white;
+}
+
+
+
+.contactSection {
+  background-color: #053047;
+  padding: 20px 0;
+}
+
+.contactHeading {
+  color: white;
+}
+
+.detailsSection {
+  background-color: #063049;
+  padding: 20px;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+  position: relative;
+  flex: 3;  
+  /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+
+}
+
+.detailsField {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.dbox{
+    margin-top: 7%;
+    margin-left: 9%;
+    text-align: left;
+    width: 680px;
+}
+
+
+.verticalBox {
+  height: 90vh; /* Adjust the height as needed */
+  width: 20vw; /* Adjust the width as needed */
+  background-color: #051e29;
+  position: relative;
+  left: 0;
+  top: 0;
+  color: white;
+  padding: 40px;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.verticalBox2 {
+  height: 90vh; /* Adjust the height as needed */
+  width: 20vw; /* Adjust the width as needed */
+  background-color: #051e29;
+  position: relative ;
+  left: 0;
+  top: 0;
+  color: white;
+  padding: 50px;
+  line-height: 1.5;
+  flex: 1;
+  display:none;
+}
+
+/* .footerCenter ul {
+  list-style-type: none;
+  padding: 0;
+} */
+
+
+input{
+  /* border: none; */
+  background-color: #063049; 
+  border-bottom-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  margin-bottom: 17px;
+  margin-left: 87px;
+  width: 392px;
+  color: white;
+}
+
+input[type='textarea']::placeholder {
+  position: relative;
+  top: -125px;
+  left: 10px;
+  color: white;
+}
+#myFileInput{
+  position: relative;
+  top: 0px;
+  left: -11.5%;
+}
+/* .submit {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 7px;
+  font-weight: 1000;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 5em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+.submit:disabled {
+  pointer-events: none;
+ }
+ 
+.submit:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+.submit:active {
+  box-shadow: none;
+  transform: translateY(0);
+ } */
+ .submit {
+  color: #090909;
+  padding: 0.7em 1.7em;
+  font-size: 12px;
+  border-radius: 0.5em;
+  position: relative;
+  top:10px;
+  /* background: #e8e8e8; */
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  /* box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff; */
+}
+
+
+.submit:hover {
+  border: 1px solid white;
+}
+
+.submit:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+
+
+
